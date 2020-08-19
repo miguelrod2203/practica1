@@ -1,0 +1,15 @@
+* {
+	margin: 20px;
+}
+body {
+	background: #cccccc;
+}
+.red {
+	color: #d33411;
+}
+.green {
+	color: #3b850d;
+}
+.pink {
+	color: #d30d97;
+}

@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>aprendiendo git</title>
+		<link rel="stylesheet" type="text/css" href="estilos.css">
+	</head>
+
+	<body>
+		<div>
+			<div>
+				<img src="imagenes/local-remote.png" width="400">
+			</div>
+			<p><b> cd (nombre de la carpeta)</b> para entrar a la carpeta</p>
+
+			<p><b> cd ..</b> para salir de la carpeta</p>
+
+			<p><b> git version</b> presionas enter y te dira la version en qe te encuentras de git</p>
+
+			<p><b> git help</b> para desplegar todos los comandos si lo requieres</p>
+
+			<p><b>git init</b> si queremos relacionar los archivos con un repositorio que tenemos guardado en el computador usamos git init este comando lo usamos una solo ves por repositorio (cuando queremos vincular las carpetas de nuestro proyecto con git colocamos git init se debe hacer al inicio </p>
+
+			<p><b>git status -s</b> para ver que archivos no tienen seguimiento tdos los que tengan <b class="red">(??)</b> en la lista que se va a desplegar no tienen seguimiento</p>
+
+			<p>para hacer un segumiento debemos mandarlo al area local</p>
+
+			<p><b>git add</b> para indicar que archivos queremos que se le realice seguimiento git add ____ nombre del archivo... luego para comprobar usamos de nuevo el comando git status -s y ahora cuando se despliegue la lista debe haber cambiado de <b class="red">(??)</b> a <b class="green">(A)</b> lo que significa que añadio correctamente el articulo al area temporal </p>
+
+			<p><b></b> en el area temporal se puede ir monitoreando el progreso </p>
+
+			<p><b>git commit -m</b> se utliza para mandar algun archivo en especifico del area temporal a nuestro repositorio este comando es el que nos sirve para viajar en el tiempo, se debe desplegar una lista y los archivos seleccionados deben tener ahora la letra <b class="pink">(M)</b></p>
+			<p><b>git add .</b> manda todos los archivos al area temporal </p>
+
+			<p><b>git log --oneline</b> este comando nos permite mediante una lista ver todos los commit que hemos realizado junto con un codigo identificador y el comentario que colocamos, nos sirve para viajar atraves de los commit</p>
+
+			<p><b>git reset --hard _____</b> si queremos volver a un commit (una parte de la historia antes de modificar ) colocamos este comando y el codigo del commit que deseas eliminar</p>
+
+			<p><b>git reset --hard _____</b> si queremos volver a un commit (una parte de la historia antes de modificar ) si eliminaste n commit pero lo uieres de regreso puedes usar este mismo comando para hacerlo, solo coloca el codigo que corresponde</p>
+
+			<p><b>git push</b> para subirlo a la nube pero antes debes usar el comando git commit -s </p>
+
+			<p><b>entrar a github</b> debes crear tu cuenta, luego te vas a repositorios y creas uno nuevo le colocas un nombre  una descripcion y si quieres que sea publico o privado y lo creas </p>
+
+			<p>te van aparecer tres cajas de codigo... debes tomar solo de la segunda caja la primera linea de codigos y copiarlas en git y esto le va a indicar a git que ya va a estar trabajando de forma remota. osea va crearun idetificador de todos nuestros archivos o de el que le indiquemos. soo se coloca una vez </p>
+
+			<p>luego de que hagamos todos los commit -m correspondentes tomamos de la misma segunda caja la segunda linea de codigo y la colocamos en gites posible que tepida el usuario y contraseña </p>	
+
+			<p>luego de esto si actualizas la pag van a aparecer los archivos que tenemos de forma local igual poras ver los commit que hubieras realizado con su codigo</p>	
+
+			<p><b>clear</b>.... para limpiar la termial o pantalla de git</p>	
+
+			<p><b> git push</b> para subirlo a la nube si refrescas la pag veras los cambios</p>		
+		</div>	
+
+	</body>
+	<!-- Git es un software de control de versiones diseñado por Linus Torvalds, pensando en la eficiencia y la confiabilidad del mantenimiento de versiones de aplicaciones cuando éstas tienen un gran número de archivos de código fuente.   -->
+
+	<!--    -->
+
+	<!--    -->
+
+	<!-- https://www.youtube.com/watch?v=hWglK8nWh60   -->		
+</html>
